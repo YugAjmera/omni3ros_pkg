@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	
+	<!-- Launch empty world Gazebo -->
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" default="worlds/empty.world"/>
+		<arg name="paused" value="false"/>
+		<arg name="gui" value="true"/>
+	</include>	
+	
+	<!-- Spawn the urdf model -->
+	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find omni3ros_pkg)/urdf/main.urdf.xacro'" />
+
+		
+	<arg name="x" default="0.0" />
+	<arg name="y" default="0.0" />
+	<arg name="z" default="0.0" />
+	
+	<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -model open_base -param robot_description"/>
+	
+</launch>
