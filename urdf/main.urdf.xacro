@@ -18,7 +18,7 @@
 		</inertial>
 	<visual>
 		<geometry>
-			<mesh filename="package://open_base/mesh/base.stl"/>
+			<mesh filename="package://omni3ros_pkg/mesh/base.stl"/>
 
 		</geometry>
 		<material name="base_material">
@@ -27,7 +27,7 @@
 	</visual>
 	<collision>
 		<geometry>
-			<mesh filename="package://open_base/mesh/base.stl"/>
+			<mesh filename="package://omni3ros_pkg/mesh/base.stl"/>
 		</geometry>
 	</collision>
 
@@ -54,20 +54,10 @@
 		xyz="0.03464101615 0.02 0"
 		rpy="1.570796326794896 0 -1.047197551196597"/>
 
-	<gazebo reference="rim_left">
-  		<material>Gazebo/Red</material>
-	</gazebo>
-	<gazebo reference="rim_back">
-  		<material>Gazebo/Green</material>
-	</gazebo>
-	<gazebo reference="rim_right">
-  		<material>Gazebo/Blue</material>
-	</gazebo>
-
 	<gazebo>
 		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
 		<robotNamespace>/open_base</robotNamespace>
 		</plugin>
 	</gazebo>
-
+	
 </robot>

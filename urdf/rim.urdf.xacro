@@ -23,7 +23,7 @@
 			<visual>
 				<geometry>
 
-					<mesh filename="package://open_base/mesh/rim.stl"/>
+					<mesh filename="package://omni3ros_pkg/mesh/rim.stl"/>
 				</geometry>
 				<material name="rim_${name}_material">
 					<color rgba="${color} 1"/>
@@ -31,7 +31,7 @@
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="package://open_base/mesh/rim.stl"/>
+					<mesh filename="package://omni3ros_pkg/mesh/rim.stl"/>
 				</geometry>
 			</collision>
 		</link>

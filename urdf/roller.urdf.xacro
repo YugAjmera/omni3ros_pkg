@@ -18,7 +18,7 @@
 			</inertial>
 			<visual>
 				<geometry>
-					<mesh filename="package://open_base/mesh/roller.stl"/>
+					<mesh filename="package://omni3ros_pkg/mesh/roller.stl"/>
 				</geometry>
 				<material name="roller_material">
 					<color rgba="0.1 0.1 0.1 1"/>
@@ -26,7 +26,7 @@
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="package://open_base/mesh/roller.stl"/>
+					<mesh filename="package://omni3ros_pkg/mesh/roller.stl"/>
 				</geometry>
 			</collision>
 		</link>
