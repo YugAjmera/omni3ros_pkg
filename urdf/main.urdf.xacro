@@ -54,6 +54,21 @@
 		xyz="0.03464101615 0.02 0"
 		rpy="1.570796326794896 0 -1.047197551196597"/>
 
+	<gazebo reference="base_link">
+    		<material>Gazebo/White</material>
+  	</gazebo>
+
+	<gazebo reference="rim_left_link">
+    		<material>Gazebo/Red</material>
+  	</gazebo>
+
+	<gazebo reference="rim_back_link">
+    		<material>Gazebo/Green</material>
+  	</gazebo>
+
+	<gazebo reference="rim_right_link">
+    		<material>Gazebo/Blue</material>
+  	</gazebo>
 	<gazebo>
 		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
 		<robotNamespace>/open_base</robotNamespace>

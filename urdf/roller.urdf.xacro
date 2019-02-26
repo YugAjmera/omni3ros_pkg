@@ -30,6 +30,9 @@
 				</geometry>
 			</collision>
 		</link>
+	<gazebo reference="roller_${name}_rim_${parent}_link">
+    		<material>Gazebo/Black</material>
+  	</gazebo>
 		<joint name="roller_${name}_rim_${parent}_joint" type="continuous">
 			<parent link="rim_${parent}_link"/>
 			<child link="roller_${name}_rim_${parent}_link"/>
