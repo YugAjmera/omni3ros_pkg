@@ -1,6 +1,17 @@
 # omni3ros_pkg
 
-## A ROS Package for three-wheeled holonomic drive robot
+## A ROS Package for three-wheeled holonomic drive robots
+
+### Getting Started
+
+- `cd catkin_ws/src`
+-  Clone this repo here : `git clone "https://github.com/YugAjmera/omni3ros_pkg"`
+- `cd ..` (Go back to catkin_ws/)
+- `catkin_make`
+- `source ./devel/setup.bash`
+- `source ~/.bashrc`
+
+### Run
 
 1.> To view the model in Gazebo : ` roslaunch omni3ros_pkg urdf_gazebo_view.launch `
 
