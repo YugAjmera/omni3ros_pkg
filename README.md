@@ -19,6 +19,8 @@
 
 - To view RVIZ model : `roslaunch omni3ros_pkg urdf_rviz_view.launch`
 
+- Control the robot using keyboard keys: [teleop_keyboard_omni3](https://github.com/YugAjmera/teleop_keyboard_omni3)
+
 ![](screenshots/Screenshot%20from%202019-02-27%2000-17-33.png)
 
-- Control the robot using keyboard keys: [teleop_keyboard_omni3](https://github.com/YugAjmera/teleop_keyboard_omni3)
+
