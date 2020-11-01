@@ -21,6 +21,18 @@
 
 - Control the robot using keyboard keys: [teleop_keyboard_omni3](https://github.com/YugAjmera/teleop_keyboard_omni3)
 
+If our work is helpful to you, please kindly cite our paper as:
+```
+@inproceedings{mishra2019ego,
+  title={Ego-Centric framework for a three-wheel omni-drive Telepresence robot},
+  author={Mishra, Ruchik and Ajmera, Yug and Mishra, Nikhil and Javed, Arshad},
+  booktitle={2019 IEEE International Conference on Advanced Robotics and its Social Impacts (ARSO)},
+  pages={281--286},
+  year={2019},
+  organization={IEEE}
+}
+```
+
 ![](screenshots/Screenshot%20from%202019-02-27%2000-17-33.png)
 
 
