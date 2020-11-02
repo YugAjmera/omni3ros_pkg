@@ -15,6 +15,8 @@
 
 - To view the model in Gazebo : ` roslaunch omni3ros_pkg urdf_gazebo_view.launch `
 
+Model from: [https://github.com/GuiRitter/OpenBase](https://github.com/GuiRitter/OpenBase)
+
 - To view the model with controllers : `roslaunch omni3ros_pkg velocity_controller.launch `
 
 - To view RVIZ model : `roslaunch omni3ros_pkg urdf_rviz_view.launch`
